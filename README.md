@@ -50,7 +50,7 @@ Intentionally create and resolve merge conflicts together.
 
 **Add your name below after completing Round 1:**
 
-- Roy Daneman: ✅ Completed Round 1
+   - Roy Daneman: ✅ Completed Round 1
 
 <!-- Add your name here during workshop:
 - Todd [Last]: ✅ Completed Round 1
