@@ -1,4 +1,4 @@
 # UX Principles
 
-- Keep interfaces simple, consistent, and fast to use.
+- Keep interfaces simple and consistent.
 - Prioritize clarity over cleverness.
