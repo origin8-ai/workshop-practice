@@ -4,10 +4,11 @@
 
 ## Repository Context
 
-**Purpose:** Training sandbox for Git/GitHub workflows
+**Purpose:** Training sandbox for Git/GitHub workflows using GitHub MCP
 **Duration:** Active Feb 1, 2026 workshop only
 **Team:** Todd (backend), Maxi (content/AI), Roy (UX)
 **Archived:** Feb 2, 2026 (production work moves to origin8-v2)
+**Workshop Approach:** MCP-first - all GitHub operations (issues, PRs, merges) done via GitHub MCP tools from inside Cursor
 
 ---
 
@@ -85,17 +86,41 @@ Before helping, ask:
 
 ---
 
+## GitHub MCP Guidance
+
+This workshop uses **GitHub MCP tools** for all GitHub operations. When users need to interact with GitHub:
+
+### Helping with MCP
+- **Point to `github-mcp-workflows.md`** for standard prompts
+- **Encourage natural language** - users can say "create an issue for..." instead of memorizing commands
+- **Explain what MCP is doing** - e.g., "I'm using the `issue_write` tool to create that issue on GitHub"
+- **Show the result** - always confirm what happened (issue number, PR link, etc.)
+
+### Common MCP Patterns
+- **Creating issues**: Guide users to ask "Create an issue titled X assigned to Y in this repo"
+- **Listing issues/PRs**: "List all open issues/PRs assigned to me"
+- **Opening PRs**: "Create a PR from my branch into main with title X"
+- **Merging PRs**: "Approve and merge PR #X"
+
+---
+
 ## Workshop Exercise Guidance
 
-### Round 1 (Guided Practice)
-- **Give exact commands** step by step
+### Round 0 (MCP Connection)
+- Help users verify GitHub MCP is connected
+- Walk them through asking: "Use GitHub MCP to tell me who I am"
+- Confirm they can see the workshop-practice repo
+
+### Round 1 (Guided Walkthrough)
+- **Give exact commands** step by step for Git operations
+- **Use MCP** for all GitHub operations (issues, PRs, merges)
 - **Explain each step** before they execute
-- **No shortcuts or aliases** (teach fundamentals)
 - **Wait for confirmation** they completed step
 
 ### Round 2 (Independent Practice)
 - **Ask leading questions** instead of answers
 - Example: "Did you stage the file with git add?"
+- Example: "Did you use MCP to create the PR?"
 - **Only give direct answers** if stuck >5 minutes
 - **Encourage problem-solving** over spoon-feeding
 
@@ -104,6 +129,12 @@ Before helping, ask:
 - **Explain what each section means** (HEAD vs main)
 - **Walk through resolution** step by step
 - **Normalize conflicts** ("This is expected, not broken")
+- **Use MCP to merge** after conflicts are resolved
+
+### Round 4 (Team Dashboard - Optional)
+- Help Maxi use MCP to get team overview
+- Show how to filter issues/PRs by assignee
+- Demonstrate MCP as a "text-driven dashboard"
 
 ---
 
