@@ -1,0 +1,20 @@
+{
+  "mcpServers": {
+    "memory": {
+      "description": "Persistent memory and context management for Claude Code sessions. Store and recall information across conversations and projects.",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-memory"
+      ]
+    },
+    "context7": {
+      "description": "Context7 MCP pulls up-to-date, version-specific documentation and code examples straight from the source — and places them directly into your prompt.",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@upstash/context7-mcp"
+      ]
+    }
+  }
+}
