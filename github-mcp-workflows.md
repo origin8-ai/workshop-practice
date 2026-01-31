@@ -2,6 +2,13 @@
 
 This page shows **exact prompts** you can use in Cursor to drive GitHub through the **GitHub MCP** server. Keep it open during the workshop.
 
+### Where to Type These Prompts
+
+- 💬 **MCP prompts** → Type in **Cursor AI chat** (this chat window)
+- ⌨️ **Git commands** → Type in **Terminal** (`git add`, `git commit`, `git push`)
+
+When you see a prompt below, copy it and paste it into the AI chat, not the terminal!
+
 ---
 
 ## Core MCP Tools We Actually Use
@@ -21,7 +28,12 @@ You do not need to remember tool names; the AI does. This is just to make the fl
 
 ## Standard Prompts (Copy / Adapt These)
 
-You can paste these into Cursor and tweak names/branches as needed.
+**⚠️ IMPORTANT:** These prompts go in **Cursor's AI chat** (where you're talking to me right now), NOT in the terminal.
+
+The terminal is for Git commands (`git add`, `git commit`, `git push`).  
+The AI chat is for GitHub operations (issues, PRs, merges) using MCP.
+
+You can paste these prompts into the AI chat and tweak names/branches as needed.
 
 ### 1. Check MCP + Identity
 
