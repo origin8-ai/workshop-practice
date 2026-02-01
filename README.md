@@ -301,3 +301,6 @@ There's no such thing as a dumb question in a training environment.
 **See you Sunday. Come ready to learn.**
 
 — Roy
+---
+
+Branch: TB-Fix-text
